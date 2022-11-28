@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/menuburguer.css">
+    <script src="./js/main.js"></script>
     <title>Pizzaria</title>
 </head>
 
@@ -23,17 +25,32 @@
             </div>
 
             <div class="procurar">
-                <input type="aa" placeholder="Pesquisar" class="busca">
+                <label for="search-input" class="search-icon"></label>
+                <input type="aa"  class="busca">
             </div>
         </div>
-
-        <ul class="titles">
-            <li>Apresentação</li>
-            <li>Cardápio</li>
-            <li>Promoções</li>
-            <li>Serviços</li>
-            <li><img src="./img/suport.png" alt="dd" class="support"></li>
-        </ul>
+        <nav>
+            <a href="#" id="menu-burguer-container" class="menu-burguer-container">
+                <i class="menu-burguer">
+                </i>
+            </a>
+            <ul class="links-container">
+                <li class="home">
+                    <a href="#">Apresentação</a>
+                </li>
+                <li class="pers">
+                    <a href="#">Cardápio</a>
+                </li>
+                <li class="galeria">
+                    <a href="#">Serviços</a>
+                </li>
+                <li class="vídeos">
+                    <a href="#">
+                        <img src="./img/suport.png" alt="dd" class="support">
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
     </header>
 
