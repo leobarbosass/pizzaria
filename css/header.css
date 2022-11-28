@@ -20,6 +20,13 @@ header {
     padding-right: 3vw;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo-container {
     display: flex;
     flex-direction: column;
@@ -67,6 +74,7 @@ header {
     width: 40vw;
     height: 76px;
 
+    border: none;
     outline: none;
 
     background: #FFFFFF;
@@ -124,6 +132,10 @@ header {
         flex-wrap: wrap;
         justify-content: center;
         gap: 0px;
+    }
+
+    nav{
+        padding-left: 8vw;
     }
 
     .links-container {
@@ -191,6 +203,10 @@ header {
         gap: 0px;
         padding-left: 1vw;
         padding-right: 1vw;
+    }
+
+    nav{
+        padding-left: 10vw;
     }
 
     .titles {

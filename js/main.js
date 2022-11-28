@@ -1,6 +1,6 @@
 'use strict'
 
-const menu = document.querySelector('.menu-burguer-container')
+const menu = document.getElementById('menu-burguer-container')
 
 function menuAction (){
     menu.classList.toggle('show')
