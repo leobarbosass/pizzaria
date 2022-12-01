@@ -46,16 +46,16 @@
             </a>
             <ul class="links-container">
                 <li class="home">
-                    <a href="#">Apresentação</a>
+                    <a href="#apresentacao">Apresentação</a>
                 </li>
                 <li class="pers">
-                    <a href="#">Cardápio</a>
+                    <a href="#cardapio">Cardápio</a>
                 </li>
                 <li class="galeria">
-                    <a href="#">Serviços</a>
+                    <a href="#servicos">Serviços</a>
                 </li>
                 <li class="vídeos">
-                    <a href="#">
+                    <a href="#suporte">
                         <img src="./img/suport.png" alt="dd" class="support">
                     </a>
                 </li>
@@ -66,37 +66,48 @@
 
     <main class="main">
 
-        <div class="title-container">
-            <img src="./img/logo.png" alt="lg" class="logo">
-            <p class="title">LaPizza</p>
-        </div>
+        <div class="pagina-inicial-container">
+            <div>
+                
+                <div class="welcome-container">
+                    <div id="reta"></div>
+                    <div class="welcome"> <p>Seja bem-vindo ao</p> </div>
+                    <div id="reta"></div>
+                </div>
 
-        <div class="sub-titles-container">
-            <p class="sub-title1">Tudo pra facilitar seu dia a dia</p>
-            <p class="sub-title2">Se para ser feliz não tem dia, para pedir pizza também não!</p>
-        </div>
+                <div class="title-container">
+                    <p class="title">LaPizza</p>
+                </div>
 
-        <div class="buttons-bd-container">
-            <div class="buttons-bd-1">
-                <p>Cardápio</p>
-                <img src="./img/bebidacard1.png" alt="">
-                <img src="./img/pizzacard1.png" alt="">
+                <div class="sub-titles-container">
+                    <p class="sub-title1">Tudo pra facilitar seu dia a dia</p>
+                    <p class="sub-title2">Se para ser feliz não tem dia, para pedir pizza também não!</p>
+                </div>
+
+                <div class="buttons-bd-container">
+                    <a href="#cardapio" id="buttons-a">
+                        <div class="buttons-bd-1">
+                            <p class="buttons-name">Cardápio</p>
+                        </div>
+                    </a>
+                    <a href="#servicos" id="buttons-a">
+                        <div class="buttons-bd-2">
+                            <p class="buttons-name">Serviços</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="buttons-bd-container-2">
+                    <a href="#cardapio" id="buttons-a">
+                        <div class="buttons-bd-3">
+                            <p class="buttons-name">Promoções</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="buttons-bd-2">
-                <p>Serviços</p>
-                <img src="./img/servico.png" alt="sc" class="servico-image">
-            </div>
-        </div>
-        <div class="buttons-bd-container-2">
-            <div class="buttons-bd-3">
-                <p>Promoções</p>
-                <img src="./img/bebidacard.png" alt="">
-                <img src="./img/pizzacard.png" alt="">
-            </div>
         </div>
 
 
-        <div class="button-apresentacao-container">
+        <div class="button-apresentacao-container" id="apresentacao">
             <div class="button-apresentacao">
                 <img src="./img/imageretrato.png" alt="ir" class="image-retrato">
                 <div class="button-container">
@@ -111,7 +122,7 @@
             </div>
         </div>
 
-        <div class="button-apresentacao-container">
+        <div class="button-apresentacao-container" id="cardapio">
             <div class="button-apresentacao">
                 <img src="./img/imageretrato.png" alt="ir" class="image-retrato">
                 <div class="button-container">
@@ -127,12 +138,28 @@
         </div>
 
 
-        <div class="sub-titles-container2">
+        <div class="sub-titles-container2" id="servicos">
             <p class="sub-title1">Nossos servicoes e atendimentos</p>
             <p class="sub-title2">Entregas rapidas e seguras</p>
         </div>
 
+
         
+            <div class="contato-imagem-container" id="suporte">
+                <div class="contato-container">
+                    <h1 class="contato-title">Contate-nos</h1>
+                    <input type="text" placeholder="Nome" id="contato" class="contato-nome">
+                    <div class="contato-telefone-celular">
+                        <input type="text" placeholder="Telefone" id="contato-tel" class="contato-telefone">
+                        <input type="text" placeholder="Celular" id="contato-tel" class="contato-celular">
+                    </div>
+                    <input type="text" placeholder="E-mail" id="contato" class="contato-email">
+                    <input type="text" placeholder="Critica/Sugestão" id="contato" class="contato-critica">
+                    <input type="text" placeholder="Mensagem" id="contato" class="contato-mensagem">
+                </div>
+                <img src="./img/imgtel.png" alt="" class="telefone-img">
+            </div>
+
     </main>
 
     <footer class="footer">
