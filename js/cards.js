@@ -16,7 +16,7 @@ const listaPizzas =
             foto: '../img/pizza1.png',
             preco: 'R$ 32,99',
             descricao: 'A pizza de catupiry é uma das delicias criadas...',
-            status_promocao: 1,
+            status_promocao: 0,
             status_favoritos: 0
         },
         {
@@ -26,8 +26,8 @@ const listaPizzas =
             descricao: 'A coca cola...',
             litragem: 500,
             teor_alcoolico: 35.3,
-            status_promocao: 0,
-            status_favoritos: 1
+            status_promocao: 1,
+            status_favoritos: 0
 
         },
         {
@@ -62,10 +62,11 @@ const listaPizzas =
             foto: '../img/pizza1.png',
             preco: 'R$ 31,99',
             descricao: 'A pizza portuguesa queijo é saborosa...',
-            status_promocao: 1,
+            status_promocao: 0,
             status_favoritos: 0
 
         },
+        
 
     ]
 
