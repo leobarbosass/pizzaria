@@ -1,5 +1,15 @@
 'use strict'
 
+/* const getAllPizzas = async ()=>{
+    const url = ``
+
+    const response = fetch(url)
+
+    const pizzas = response.json()
+
+    return pizzas
+} */
+
 const listaPizzas =
     [
         {
@@ -72,28 +82,29 @@ const listaPizzas =
 
 
 
-const createCardHeitor = () => {
-
-
+const listarTodosProdutos = () => {
 
     listaPizzas.map(element => {
 
         console.log(element)
 
+        const main = document.getElementById('div-container-listar')
         const ul = document.querySelector('ul')
         const div = document.createElement('div')
         const li = document.createElement('li')
+        li.classList.add('li-container')
+
+        
         li.innerHTML = `
         <img src="${element.foto}" alt="">   
                 <h3>${element.nome}</h3>
             
                 <div>${element.descricao}</div>
         `
-        div.classList.add('div-container')
+        div.classList.add('div-container-listar')
         div.appendChild(li)
         ul.appendChild(div)
-
-        console.log(element.status_promocao)
+        main.appendChild(div)
 
         if (element.status_promocao) {
             li.classList.add('promocao')
@@ -104,15 +115,10 @@ const createCardHeitor = () => {
         if (element.status_favoritos && element.status_promocao){
             li.classList.add('favorito-promocao')
         }
-    }
-
-
-
-    )
-
-
-
+    })
 }
-createCardHeitor()
+
+
+listarTodosProdutos()
 
 

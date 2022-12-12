@@ -21,7 +21,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bd40ade05d.js" crossorigin="anonymous"></script>
     <script src="./js/main.js" defer type="module"></script>
-    <script src="./js/search.js" defer></script>
+    <script src="./js/search.js" defer type="module"></script>
+    <script src="./js/cards.js" defer type="module"></script>
     <title>Pizzaria</title>
 </head>
 
@@ -107,27 +108,33 @@
             </div>
         </div>
 
-
-        <div class="button-apresentacao-container" id="apresentacao">
-            <div class="button-apresentacao">
-                <img src="./img/imageretrato.png" alt="ir" class="image-retrato">
-                <div class="button-container">
-                    <div class="button-tittle">
-                        <span class="tittle-button">Apresentacao</span> 
-                        <span class="tittle-button">LaPizza</span>
-                    </div>
-                    <div class="button-descricao">
-                        <span>Se olharmos a vida em seus pequenos detalhes, tudo parece bem ridículo. É como uma gota d`água vista num microscópio, uma só gota cheia de protozoários. Achamos muita g</span>
+        <div>
+            <div class="button-apresentacao-container" id="apresentacao">
+                <div class="button-apresentacao">
+                    <img src="./img/imageretrato.png" alt="ir" class="image-retrato">
+                    <div class="button-container">
+                        <div class="button-tittle">
+                            <span class="tittle-button">Apresentacao</span> 
+                            <span class="tittle-button">LaPizza</span>
+                        </div>
+                        <div class="button-descricao">
+                            <span>Se olharmos a vida em seus pequenos detalhes, tudo parece bem ridículo. É como uma gota d`água vista num microscópio, uma só gota cheia de protozoários. Achamos muita g</span>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="button-filtro-container">
+                <a href="./telas/telalogin.html">
+                    <div class="button-telas"><img src="./img/more.png" alt="aa"></div>
+                </a>
+            </div>
+
+            <div class="div-container-listar" id="div-container-listar">
+                <ul></ul>
+            </div>
         </div>
-        <div class="button-filtro-container">
-            <div class="button-filtro"></div>
-            <a href="./telas/telalogin.html">
-                <div class="button-telas"><img src="./img/more.png" alt="aa"></div>
-            </a>
-        </div>
+
+
 
         <div class="button-apresentacao-container" id="cardapio">
             <div class="button-apresentacao">

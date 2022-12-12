@@ -181,7 +181,17 @@ li {
     border-radius: 12px;
     transition: all ease-in-out .5s;
     box-shadow: 5px 5px rgba(69, 73, 96, 0.5);
+    
 }
+
+#div-container-listar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 1vw;
+}
+
 h3{
     padding-top: 13px;
     display: flex;
