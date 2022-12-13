@@ -73,7 +73,6 @@ const listaPizzas =
     ]
 
 
-
 const listarTodosProdutos = () => {
 
     listaPizzas.map(element => {

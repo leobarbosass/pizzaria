@@ -1,7 +1,7 @@
 'use strict'
 
 const login = {
-    usuario: 'eduardo',
+    usuario: 'root',
     senha: '123'
 }
 
@@ -15,7 +15,7 @@ const testeLogin = () => {
         
         if (login.usuario == usuario && login.senha == senha) {
 
-            window.location.href = './crudpizzabebida.html'
+            window.location.href = '../admin/telas/crudpizzabebida.html'
     
         }else{
             alert('ta errado')

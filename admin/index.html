@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -21,7 +20,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bd40ade05d.js" crossorigin="anonymous"></script>
-    <script src="./js/main.js" defer type="module"></script>
+    <script src="../js/main.js" defer type="module"></script>
+    <script src="../js/login.js" defer type="module"></script>
     <title>Telas</title>
 </head>
 
@@ -36,33 +36,37 @@
             </div>
 
             <div class="login-login-container">
-                <a href="./telalogin.html" class="back">Voltar</a>
+                <a href="../index.html" class="back">Voltar</a>
 
                 <div class="lapizza">
                     <p>LaPizza</p>
                     <img src="../img/pizza-logo-login.png" alt="">
                 </div>
 
-                <p class="welcome">Criar conta</p>
+                <p class="welcome">Seja bem vindo ao LaPizza</p>
 
-                <div class="usuario-container">
+                <form class="usuario-container">
 
                     <div class="usuario-password">
-                        <input type="text" class="usuario" >
+                        <input type="text" class="usuario" id="user" >
                         <label for="">Usuário</label>
                     </div>
 
                     <div class="usuario-password">
-                        <input type="password" class="password" >
+                        <input type="password" class="password" id="password">
                         <label for="">Senha</label>
                     </div>
 
-                </div>
+                </form>
                 <div class="button">
-                    <button type="submit">Criar conta</button>
+                    <button type="submit" id="buttonJoin">Entrar</button>
                 </div>
 
+                <div class="signUp-link">
+                    <p>Você não tem uma conta? <a href="./telas/criarconta.html" class="criar-conta">Crie uma</a> </p>
+                </div>
             </div>
+
 
 
         </div>
